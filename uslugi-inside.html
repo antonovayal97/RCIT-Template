@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
+    <title>РЦИТ</title>
+    <link rel="stylesheet" href="./libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./libs/hystmodal.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="libs/swiper-bundle.min.js"></script>
+    <script src="libs/hystmodal.min.js"></script>
+  </head>
+  <body>
+    <header class="header-main">
+      <div class="header__top">
+        <div class="index-wrap">
+          <div class="header__wrap"><a class="header__logo" href="./">
+              <svg class="icon icon-logo header__logo-image">
+                <use href="./img/svg/sprite.svg#logo" xlink:href="./img/svg/sprite.svg#logo"></use>
+              </svg></a>
+            <div class="header__options"><a class="header__btn header__btn-active hidden-l" href="#"><span>Для физических лиц</span></a><a class="header__btn hidden-l" href="#"><span>Для юридических лиц</span></a>
+              <div class="header__search hidden-l">
+                <input class="header__search-input" type="text" placeholder="Поиск">
+                <div class="header__search-btn">
+                  <svg class="icon icon-search-normal header__search-btn-icon">
+                    <use href="./img/svg/sprite.svg#search-normal" xlink:href="./img/svg/sprite.svg#search-normal"></use>
+                  </svg>
+                </div>
+              </div><a class="header__a11y hidden-l" href="#">
+                <div class="header__a11y-text visible-l"><span>Версия для слабовидящих</span></div>
+                <div class="header__a11y-icon">
+                  <svg class="icon icon-akar-icons_glasses ">
+                    <use href="./img/svg/sprite.svg#akar-icons_glasses" xlink:href="./img/svg/sprite.svg#akar-icons_glasses"></use>
+                  </svg>
+                </div></a>
+              <div class="header__btn-user">
+                <svg class="icon icon-profile ">
+                  <use href="./img/svg/sprite.svg#profile" xlink:href="./img/svg/sprite.svg#profile"></use>
+                </svg>
+              </div>
+              <div class="header__menu-btn visible-l">
+                <svg class="icon icon-menu-header ">
+                  <use href="./img/svg/sprite.svg#menu-header" xlink:href="./img/svg/sprite.svg#menu-header"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__mid">
+        <div class="index-wrap header__mid-wrap">
+          <div class="header__lines hidden-l"></div>
+          <nav class="header__menu-links hidden-l">
+            <ul>
+              <li>
+                <div class="header__menu-links-link" tabindex="0">
+                  <div class="header__menu-links-link-first"><a class="header__links-text" href="./about-orcit.html" aria-role="menuitem" aria-haspopup="true">О нас</a>
+                    <div class="header__menu-links-link-second">
+                      <div class="header__menu-links-link-second-wrap">
+                        <ul>
+                          <li><a href="./about-orcit.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">О РЦИТ</div></a></li>
+                          <li><a href="./about-history.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">История РЦИТ</div></a></li>
+                          <li><a href="#" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Политика РЦИТ</div></a></li>
+                          <li><a href="#" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Достижения</div></a></li>
+                          <li><a href="./about-realproject.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Реализованные проекты</div></a></li>
+                          <li><a href="#" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Штаб ЦТ</div></a></li>
+                          <li><a href="#" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Контакты</div></a></li>
+                          <li><a href="./about-docs.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Документы</div></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="header__menu-links-link uslg__unrelative" tabindex="0">
+                  <div class="header__menu-links-link-first"><a class="header__links-text" href="./uslugi-inside.html" aria-role="menuitem" aria-haspopup="true">Услуги</a>
+                    <div class="header__menu-links-link-second uslg">
+                      <div class="header__menu-links-link-second-wrap uslg__wrap">
+                        <ul>
+                          <li>
+                            <div class="uslg__head2">Связь</div>
+                            <ul class="uslg_items">
+                              <li><a class="uslg__item" href="./uslugi-inside.html">IP - Телефония</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">МТС</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">VPN</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">ПД</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Интернет и Wi-Fi</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Аренда сетевого оборудования</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <div class="uslg__head2">Инфобезопастность</div>
+                            <ul class="uslg_items">
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 1</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 2</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 3</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 4</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 5</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 6</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <div class="uslg__head2">Облачные решения</div>
+                            <ul class="uslg_items">
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 1</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 2</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 3</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 4</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 5</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 6</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <div class="uslg__head2">Дата-центр</div>
+                            <ul class="uslg_items">
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 1</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 2</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 3</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 4</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 5</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 6</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <div class="uslg__head2">IT-Администрирование</div>
+                            <ul class="uslg_items">
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 1</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 2</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 3</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 4</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 5</a></li>
+                              <li><a class="uslg__item" href="./uslugi-inside.html">Услуга 6</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="header__menu-links-link" tabindex="0">
+                  <div class="header__menu-links-link-first"><a class="header__links-text" href="./services.html" aria-role="menuitem" aria-haspopup="true">Сервисы</a>
+                    <div class="header__menu-links-link-second">
+                      <div class="header__menu-links-link-second-wrap">
+                        <ul>
+                          <li><a href="./services.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Список сервисов</div></a></li>
+                          <li><a href="./calendar.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Календарь видеоконференции связи с районами</div></a></li>
+                          <li><a href="#" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Реестер ГИС</div></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="header__menu-links-link" tabindex="0">
+                  <div class="header__menu-links-link-first"><a class="header__links-text" href="./news.html" aria-role="menuitem" aria-haspopup="true">Пресс-центр</a>
+                    <div class="header__menu-links-link-second">
+                      <div class="header__menu-links-link-second-wrap">
+                        <ul>
+                          <li><a href="./news.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Новости</div></a></li>
+                          <li><a href="./news.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Объявления</div></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="header__menu-links-link" tabindex="0">
+                  <div class="header__menu-links-link-first"><a class="header__links-text" href="./tehpod-poryadok.html" aria-role="menuitem" aria-haspopup="true">Техническая поддержка</a>
+                    <div class="header__menu-links-link-second">
+                      <div class="header__menu-links-link-second-wrap">
+                        <ul>
+                          <li><a href="./tehpod-poryadok.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Порядок и способ обращения в техподдержку</div></a></li>
+                          <li><a href="./faq.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">FAQ</div></a></li>
+                          <li><a href="#" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Регламенты и инструкции</div></a></li>
+                          <li><a href="./tehpod-portal.html" aria-role="menuitem">
+                              <div class="header__menu-links-link-second-name">Портал технической поддержки</div></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a class="header__menu-links-link" href="./tel-page.html"><span class="header__links-text">Телефонный справочник</span></a></li>
+            </ul>
+          </nav>
+          <div class="header__search visible-l-flex">
+            <input class="header__search-input" type="text" placeholder="Поиск">
+            <div class="header__search-btn">
+              <svg class="icon icon-search-normal header__search-btn-icon">
+                <use href="./img/svg/sprite.svg#search-normal" xlink:href="./img/svg/sprite.svg#search-normal"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="index-wrap">
+          <div class="header__notifications">
+            <div class="swiper header__notifications-swiper">
+              <div class="swiper-wrapper header__notifications-swiper-wrapper">
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+                <div class="swiper-slide header__notifications-swiper-slide">
+                  <p>Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопасности</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__burger-inside">
+        <div class="header__burger-inside-head index-wrap">
+          <div class="header__burger-inside-head-left"><a class="header__btn header__btn-active" href="#"><span>Для физических лиц</span></a><a class="header__btn" href="#"><span>Для юридических лиц</span></a></div>
+          <div class="header__burger-inside-head-right"><a class="header__a11y" href="#">
+              <div class="header__a11y-icon">
+                <svg class="icon icon-akar-icons_glasses ">
+                  <use href="./img/svg/sprite.svg#akar-icons_glasses" xlink:href="./img/svg/sprite.svg#akar-icons_glasses"></use>
+                </svg>
+              </div></a>
+            <div class="header__btn-user">
+              <svg class="icon icon-profile ">
+                <use href="./img/svg/sprite.svg#profile" xlink:href="./img/svg/sprite.svg#profile"></use>
+              </svg>
+            </div>
+            <div class="header__burger-inside-close">
+              <svg class="icon icon-header-burger-x ">
+                <use href="./img/svg/sprite.svg#header-burger-x" xlink:href="./img/svg/sprite.svg#header-burger-x"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="header__burger-inside-main index-wrap">
+          <div class="header__burger-inside-main-logo visible-xm"></div>
+          <nav class="header__burger-inside-main-menu">
+            <ul class="header__burger-inside-main-menu-ul">
+              <li>
+                <div class="header__burger-inside-main-menu-first">
+                  <div class="header__burger-inside-main-menu-first-name">
+                    <svg class="icon icon-arrow-down ">
+                      <use href="./img/svg/sprite.svg#arrow-down" xlink:href="./img/svg/sprite.svg#arrow-down"></use>
+                    </svg><span>О нас</span>
+                  </div>
+                  <div class="header__burger-inside-main-menu-second">
+                    <ul>
+                      <li><a href="./about-orcit.html"><span>О РЦИТ</span></a></li>
+                      <li><a href="./about-history.html"><span>История РЦИТ</span></a></li>
+                      <li><a href="#"><span>Политика РЦИТ</span></a></li>
+                      <li><a href="#"><span>Достижения</span></a></li>
+                      <li><a href="./about-realproject.html"><span>Реализованные проекты</span></a></li>
+                      <li><a href="#"><span>Штаб ЦТ</span></a></li>
+                      <li><a href="#"><span>Контакты</span></a></li>
+                      <li><a href="./about-docs.html"><span>Документы</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="header__burger-inside-main-menu-first">
+                  <div class="header__burger-inside-main-menu-first-name">
+                    <svg class="icon icon-arrow-down ">
+                      <use href="./img/svg/sprite.svg#arrow-down" xlink:href="./img/svg/sprite.svg#arrow-down"></use>
+                    </svg><span>Услуги</span>
+                  </div>
+                  <div class="header__burger-inside-main-menu-second uslg-l">
+                    <ul class="hidden-xm">
+                      <li><span class="uslg-l__name">Связь</span>
+                        <ul>
+                          <li><a href="./uslugi-inside.html"><span>IP - Телефония</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>МТС</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>VPN</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>ПД</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Интернет и Wi-Fi</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Аренда сетевого оборудования</span></a></li>
+                        </ul>
+                      </li>
+                      <li><span class="uslg-l__name">Инфобезопастность</span>
+                        <ul>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 1</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 2</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 3</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 4</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 5</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 6</span></a></li>
+                        </ul>
+                      </li>
+                      <li><span class="uslg-l__name">Облачные решения</span>
+                        <ul>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 1</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 2</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 3</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 4</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 5</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 6</span></a></li>
+                        </ul>
+                      </li>
+                      <li><span class="uslg-l__name">Дата-центр</span>
+                        <ul>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 1</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 2</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 3</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 4</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 5</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 6</span></a></li>
+                        </ul>
+                      </li>
+                      <li><span class="uslg-l__name">IT-Администрирование</span>
+                        <ul>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 1</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 2</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 3</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 4</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 5</span></a></li>
+                          <li><a href="./uslugi-inside.html"><span>Услуга 6</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="header__burger-inside-main-menu-second uslg-xm visible-xm">
+                          <div class="small-accord">
+                            <div class="small-accord__outside">
+                              <div class="small-accord__name"><span>Связь</span></div>
+                              <div class="small-accord__arrow">
+                                <svg class="icon icon-accord ">
+                                  <use href="./img/svg/sprite.svg#accord" xlink:href="./img/svg/sprite.svg#accord"></use>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="small-accord__inside">
+                              <ul>
+                                <li><a href="./uslugi-inside.html"><span>IP - Телефония</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>МТС</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>VPN</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>ПД</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Интернет и Wi-Fi</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Аренда сетевого оборудования</span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="small-accord">
+                            <div class="small-accord__outside">
+                              <div class="small-accord__name"><span>Инфобезопастность</span></div>
+                              <div class="small-accord__arrow">
+                                <svg class="icon icon-accord ">
+                                  <use href="./img/svg/sprite.svg#accord" xlink:href="./img/svg/sprite.svg#accord"></use>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="small-accord__inside">
+                              <ul>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 1</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 2</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 3</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 4</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 5</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 6</span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="small-accord">
+                            <div class="small-accord__outside">
+                              <div class="small-accord__name"><span>Облачные решения</span></div>
+                              <div class="small-accord__arrow">
+                                <svg class="icon icon-accord ">
+                                  <use href="./img/svg/sprite.svg#accord" xlink:href="./img/svg/sprite.svg#accord"></use>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="small-accord__inside">
+                              <ul>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 1</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 2</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 3</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 4</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 5</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 6</span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="small-accord">
+                            <div class="small-accord__outside">
+                              <div class="small-accord__name"><span>Дата-центр</span></div>
+                              <div class="small-accord__arrow">
+                                <svg class="icon icon-accord ">
+                                  <use href="./img/svg/sprite.svg#accord" xlink:href="./img/svg/sprite.svg#accord"></use>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="small-accord__inside">
+                              <ul>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 1</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 2</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 3</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 4</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 5</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 6</span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="small-accord">
+                            <div class="small-accord__outside">
+                              <div class="small-accord__name"><span>IT-Администрирование</span></div>
+                              <div class="small-accord__arrow">
+                                <svg class="icon icon-accord ">
+                                  <use href="./img/svg/sprite.svg#accord" xlink:href="./img/svg/sprite.svg#accord"></use>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="small-accord__inside">
+                              <ul>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 1</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 2</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 3</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 4</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 5</span></a></li>
+                                <li><a href="./uslugi-inside.html"><span>Услуга 6</span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="header__burger-inside-main-menu-first">
+                  <div class="header__burger-inside-main-menu-first-name">
+                    <svg class="icon icon-arrow-down ">
+                      <use href="./img/svg/sprite.svg#arrow-down" xlink:href="./img/svg/sprite.svg#arrow-down"></use>
+                    </svg><span>Сервисы</span>
+                  </div>
+                  <div class="header__burger-inside-main-menu-second">
+                    <ul>
+                      <li><a href="./services.html"><span>Список сервисов</span></a></li>
+                      <li><a href="./calendar.html"><span>Календарь видеоконференции связи с районами</span></a></li>
+                      <li><a href="#"><span>Реестер ГИС</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="header__burger-inside-main-menu-first">
+                  <div class="header__burger-inside-main-menu-first-name">
+                    <svg class="icon icon-arrow-down ">
+                      <use href="./img/svg/sprite.svg#arrow-down" xlink:href="./img/svg/sprite.svg#arrow-down"></use>
+                    </svg><span>Пресс-центр</span>
+                  </div>
+                  <div class="header__burger-inside-main-menu-second">
+                    <ul>
+                      <li><a href="./news.html"><span>Новости</span></a></li>
+                      <li><a href="./news.html"><span>Объявления</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="header__burger-inside-main-menu-first">
+                  <div class="header__burger-inside-main-menu-first-name">
+                    <svg class="icon icon-arrow-down ">
+                      <use href="./img/svg/sprite.svg#arrow-down" xlink:href="./img/svg/sprite.svg#arrow-down"></use>
+                    </svg><span>Техническая поддержка</span>
+                  </div>
+                  <div class="header__burger-inside-main-menu-second">
+                    <ul>
+                      <li><a href="./tehpod-poryadok.html"><span>Порядок и способ обращения в техподдержку</span></a></li>
+                      <li><a href="./faq.html"><span>FAQ</span></a></li>
+                      <li><a href="#"><span>Регламенты и инструкции</span></a></li>
+                      <li><a href="./tehpod-portal.html"><span>Портал технической поддержки</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="header__burger-inside-main-menu-first-name"><a href="#"><span>Телефонный справочник</span></a></div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="index-wrap">
+        <div class="page-wrap">
+          <div class="page-header">
+            <nav class="page-header__breadcrumbs" aria-label="You are here:" itemprop="http://schema.org/breadcrumb" itemscope="itemscope" itemtype="http://schema.org/BreadcrumbList">
+              <div class="page-header__breadcrumbs-wrapper">
+                <div class="swiper bread-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide breadcrumb-slide"><a class="page-header__breadcrumbs-link" href="./" title="Аренда каналов связи" itemprop="url"><span itemprop="Главная">Главная</span></a>
+                      <div class="page-header__breadcrumbs-slash"><span>/</span></div>
+                    </div>
+                    <div class="swiper-slide breadcrumb-slide"><a class="page-header__breadcrumbs-link" href="./uslugi-inside.html" title="Аренда каналов связи" itemprop="url"><span itemprop="Услуги">Услуги</span></a>
+                      <div class="page-header__breadcrumbs-slash"><span>/</span></div>
+                    </div>
+                    <div class="swiper-slide breadcrumb-slide"><span itemprop="Аренда каналов связи">Аренда каналов связи</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <div class="page-header__head">
+              <h1>Аренда каналов связи</h1>
+            </div>
+            <div class="page-header__without-btns"></div>
+          </div>
+          <div class="uslugi-inside">
+            <div class="uslugi-inside__advantages uslugi-inside__section">
+              <div class="section__head">
+                <h2>Преимущества аренды каналов</h2>
+              </div>
+              <div class="advantages">
+                <div class="advantages__wrap">
+                  <div class="advantage__card">
+                    <div class="advantage__name">
+                      <h3>Заказчик не тратится на каналообразующее оборудование</h3>
+                    </div>
+                    <div class="advantage__num"><span>1</span></div>
+                    <div class="advantage__logo"></div>
+                  </div>
+                  <div class="advantage__card">
+                    <div class="advantage__name">
+                      <h3>Заказчик не продумывает топологию сети</h3>
+                    </div>
+                    <div class="advantage__num"><span>2</span></div>
+                    <div class="advantage__logo"></div>
+                  </div>
+                  <div class="advantage__card">
+                    <div class="advantage__name">
+                      <h3>Заказчик не тратится на содержание специализированого персонала</h3>
+                    </div>
+                    <div class="advantage__num"><span>3</span></div>
+                    <div class="advantage__logo"></div>
+                  </div>
+                  <div class="advantage__card">
+                    <div class="advantage__name">
+                      <h3>Есть возможность выбора типа канала связи в зависимости от географии услуги, стоимости и т.д.</h3>
+                    </div>
+                    <div class="advantage__num"><span>4</span></div>
+                    <div class="advantage__logo"></div>
+                  </div>
+                </div>
+                <div class="dotted advantages__dotted1"></div>
+                <div class="dotted advantages__dotted2"></div>
+              </div>
+              <div class="advantages__btn"><a class="button button_blue" href="#"><span>Подключить услугу</span></a>
+              </div>
+            </div>
+            <div class="uslugi-inside__types uslugi-inside__section">
+              <div class="section__head">
+                <h2>Типы каналов связи ГБУ РС(Я) "РЦИТ"</h2>
+              </div>
+              <div class="uslugi-types">
+                <div class="uslugi-type">
+                  <p><b>Каналы ВОЛС</b> - волоконно оптические каналы связи в г. Якутск. <br> Имеющаяся сеть ВОЛС ГБУ РС (Я) "РЦИТ" в г. Якутск позволяет подключить объекты Заказчика со скоростью передачи данных до 1Тбит/с. Аренда ВОЛС подразумевает предоставление оптического волокна или нескольких волокон в волоконно-оптическом кабеле от точки А до точки Б. Скорость передачи информации зависит от оборудования заказчика возможно использовать до 1Тбит/с. <br> Преимущества данного типа каналов связи: <br> Высокая скорость устойчивая к любым электромагинтным помехам, возможность передачи сигнала на большие расстояния</p>
+                </div>
+                <div class="uslugi-type">
+                  <p><b>Спутниковые каналы связи</b> по Республике Саха (Якутия), охватывающие не только районные центры Республики, но и наслега. Скорость передачи данных до 1 Мбит/с. обеспечивающие передачу данных, голоса и видео <br> (видеоконференцсвязь) по всему региону для нужд органов государственной власти и местного самоуправления РС(Я). Мы предлагаем высокоскоростные и надежные в эксплуатации спутниковые VSAT-терминалы SkyEdge I-II производства израильской компании GilatSatelliteNetworks – мирового лидера в сфере производства спутникового оборудования. <br> Преимущества данного типа каналов связи: <br> Покрытие труднодоступных участков без развитой инфраструктуры, Передача сигнала осуществляется через геостационарный спутник, Мобильность абонентского оборудования</p>
+                </div>
+                <div class="uslugi-type">
+                  <p><b>Каналы беспроводного широкополосного доступа</b> развернутые в 32 районных центрах РС (Я). Скорость передачи данных до 10 Мбит/с. БШД – оптимальное решение по обеспечению недорогой, надёжной и высокоскоростной связи в целях создания единого информационно-телекоммуникационного пространства в районном центре. Подключение учреждений производится посредством абонентских модулей БШД, которые связывают цифровым беспроводным каналом ПК или компьютерную сеть клиента с базовой станцией БШД районного узла доступа сети спутниковой связи ГБУ РС (Я) "РЦИТ". <br> Преимущества данного типа каналов связи: <br> Высокая скорость организации подключения, Высокая передача данных, Мобильность, Передача сигнала до 5 км.</p>
+                </div>
+                <div class="uslugi-types__bot">
+                  <p>Услуга предоставляется абонентам сети ГБУ РС (Я) "РЦИТ"</p>
+                </div>
+              </div>
+            </div>
+            <div class="uslugi-inside__tarifs uslugi-inside__section">
+              <div class="section__head">
+                <h2>Тарифы</h2>
+              </div>
+              <div class="uslugi-inside__tarifs-wrap">
+                <div class="usluga-card__link" data-hystmodal="#uslugiModal">
+                  <div class="usluga-card">
+                    <div class="usluga-card__top">
+                      <div class="usluga-card__img"><img src="./img/arenda.png"/></div>
+                    </div>
+                    <div class="usluga-card__main">
+                      <div class="usluga-card__head">
+                        <h3>Аренда каналов связи</h3>
+                      </div>
+                      <div class="usluga-card__bottom">
+                        <div class="usluga-card__text">
+                          <p>Имеющаяся сеть ВОЛС ГБУ РС (Я) &quot;РЦИТ&quot; в г. Якутск позволяет</p>
+                        </div>
+                        <div class="usluga-card__price"><span>от 700 руб/мес</span></div>
+                        <div class="usluga-card__btn"><span>Подключить</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="usluga-card__link" data-hystmodal="#uslugiModal">
+                  <div class="usluga-card">
+                    <div class="usluga-card__top">
+                      <div class="usluga-card__img"><img src="./img/iptel.png"/></div>
+                    </div>
+                    <div class="usluga-card__main">
+                      <div class="usluga-card__head">
+                        <h3>IP-Телефония</h3>
+                      </div>
+                      <div class="usluga-card__bottom">
+                        <div class="usluga-card__text">
+                          <p>Имеющаяся сеть ВОЛС ГБУ РС (Я) &quot;РЦИТ&quot; в г. Якутск позволяет</p>
+                        </div>
+                        <div class="usluga-card__price"><span>от 700 руб/мес</span></div>
+                        <div class="usluga-card__btn"><span>Подключить</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="usluga-card__link" data-hystmodal="#uslugiModal">
+                  <div class="usluga-card">
+                    <div class="usluga-card__top">
+                      <div class="usluga-card__img"><img src="./img/call.png"/></div>
+                    </div>
+                    <div class="usluga-card__main">
+                      <div class="usluga-card__head">
+                        <h3>Местная телефонная связь</h3>
+                      </div>
+                      <div class="usluga-card__bottom">
+                        <div class="usluga-card__text">
+                          <p>Имеющаяся сеть ВОЛС ГБУ РС (Я) &quot;РЦИТ&quot; в г. Якутск позволяет</p>
+                        </div>
+                        <div class="usluga-card__price"><span>от 700 руб/мес</span></div>
+                        <div class="usluga-card__btn"><span>Подключить</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uslugi-inside__reglaments uslugi-inside__section">
+              <div class="section__head">
+                <h2>Регламенты</h2>
+              </div>
+              <div class="uslugi-inside__section-wrap">
+                <div class="reglament uslugi-inside__card">
+                  <div class="reglament__head uslugi-inside__card-head">
+                    <h3>Регламент</h3>
+                  </div>
+                  <div class="reglament__wrap"><a class="document" href="./документ.txt" download="download">
+                      <div class="document__icon">
+                        <svg class="icon icon-document-cloud ">
+                          <use href="./img/svg/sprite.svg#document-cloud" xlink:href="./img/svg/sprite.svg#document-cloud"></use>
+                        </svg>
+                      </div>
+                      <div class="document__name"><span>Регламент защищенной виртуальной ViPNet Республики Саха (Якутия) №1112</span></div></a>
+                  </div>
+                </div>
+                <div class="reglament uslugi-inside__card">
+                  <div class="reglament__head uslugi-inside__card-head">
+                    <h3>Формы заявок</h3>
+                  </div>
+                  <div class="reglament__wrap"><a class="document" href="./документ.txt" download="download">
+                      <div class="document__icon">
+                        <svg class="icon icon-document-cloud ">
+                          <use href="./img/svg/sprite.svg#document-cloud" xlink:href="./img/svg/sprite.svg#document-cloud"></use>
+                        </svg>
+                      </div>
+                      <div class="document__name"><span>Форма заявки на выделение новой лицензии в виртуальной ViPNet сети №1112.docx</span></div></a><a class="document" href="./документ.txt" download="download">
+                      <div class="document__icon">
+                        <svg class="icon icon-document-cloud ">
+                          <use href="./img/svg/sprite.svg#document-cloud" xlink:href="./img/svg/sprite.svg#document-cloud"></use>
+                        </svg>
+                      </div>
+                      <div class="document__name"><span>Форма заявки на установлении связи между абонентскими пунктами.docx</span></div></a><a class="document" href="./документ.txt" download="download">
+                      <div class="document__icon">
+                        <svg class="icon icon-document-cloud ">
+                          <use href="./img/svg/sprite.svg#document-cloud" xlink:href="./img/svg/sprite.svg#document-cloud"></use>
+                        </svg>
+                      </div>
+                      <div class="document__name"><span>Форма протокола установлении межсетевого взаимодействия.docx</span></div></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uslugi-inside__distributions uslugi-inside__section">
+              <div class="section__head">
+                <h2>Дистрибутивы</h2>
+              </div>
+              <div class="uslugi-inside__section-wrap">
+                <div class="distribution uslugi-inside__card"><a class="distribution__astra" href="#">
+                    <div class="distribution__astra-logo"><img src="./img/astra_linux.png"></div>
+                    <div class="distribution__astra-name"><span>Astra Linux Special Edition</span></div></a>
+                  <div class="distribution__text">
+                    <p>Операционная система специального назначения со встроенными средствами защиты информации (СЗИ) для стабильных и безопасных ИТ-инфраструктур любого масштаба и бесперебойной работы с данными любой степени конфиденциальности.</p>
+                  </div>
+                </div>
+                <div class="distribution uslugi-inside__card">
+                  <div class="distribution__head uslugi-inside__card-head">
+                    <h3>Учебные материалы</h3>
+                  </div>
+                  <div class="distribution__wrap">
+                    <div class="distribution__sect"><a class="distribution__link" href="#"><span>Вебинар по использованию отечественного ПО Астра Линукс и офисного пакета Мой Офис</span></a></div>
+                    <div class="distribution__sect">
+                      <p>Полезные материалы Мой Офис:</p><a class="distribution__link" href="#"><span>Ссылка на видеоуроки</span></a>
+                    </div>
+                    <div class="distribution__sect">
+                      <p>Учебные пособия Мой Офис:</p><a class="distribution__link" href="#"><span>Работа с табличным редактором</span></a><a class="distribution__link" href="#"><span>Работа с табличным редактором</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="distribution__btn"><a class="button button_blue" href="#"><span>Подключить услугу</span></a>
+              </div>
+            </div>
+            <div class="uslugi-inside__tehpod uslugi-inside__section">
+              <div class="section__head">
+                <h2>Техническая поддержка</h2>
+              </div>
+              <div class="tehpod__wrap">
+                <div class="tehpod__tel">
+                  <div class="tehpod-poryadok__tel">
+                    <div class="tehpod-poryadok__tel-default"><span><b>Техническая поддержка</b><a href="tel:4112398000"> (4112) 39-80-00, IP-т. 69800</a></span></div>
+                  </div>
+                </div>
+                <div class="tehpod__email">
+                  <div class="tehpod-poryadok__email"><span><b>Электронная почта:</b><a href="email:support@rcitsakha.ru"> support@rcitsakha.ru</a></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="hystmodal" id="uslugiModal" aria-hidden="true">
+      <div class="hystmodal__wrap">
+        <div class="hystmodal__window zayavka__modal" role="dialog" aria-modal="true">
+          <div class="hystmodal__close zayavka__exs" data-hystclose>
+            <svg class="icon icon-exs ">
+              <use href="./img/svg/sprite.svg#exs" xlink:href="./img/svg/sprite.svg#exs"></use>
+            </svg>
+          </div>
+          <div class="zayavka__header">
+            <h3>Заявка на подключение услуги</h3>
+          </div>
+          <div class="zayavka__item">
+            <div class="zayavka__item-name"><span>Наименование организации</span></div>
+            <div class="zayavka__item-input">
+              <input type="text" placeholder="Пример">
+            </div>
+          </div>
+          <div class="zayavka__item">
+            <div class="zayavka__item-name"><span>Услуга</span></div>
+            <div class="zayavka__item-input">
+              <div class="custom-select custom-select__usl">
+                <select><option value="0">например Услуга 1</option>
+<option value="1">Услуга 1</option>
+<option value="2">Услуга 2</option>
+<option value="3">Услуга 3</option>
+<option value="4">Услуга 4</option>
+<option value="5">Услуга 5</option>
+<option value="6">Услуга 6</option>
+<option value="7">Услуга 7</option>
+<option value="8">Услуга 8</option>
+<option value="9">Услуга 9</option>
+<option value="10">Услуга 10</option>
+<option value="11">Услуга 11</option>
+<option value="12">Услуга 12</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="zayavka__item">
+            <div class="zayavka__item-name"><span>Контактное лицо</span></div>
+            <div class="zayavka__item-input">
+              <input type="text" placeholder="Пример">
+            </div>
+          </div>
+          <div class="zayavka__item">
+            <div class="zayavka__item-name"><span>Телефон</span></div>
+            <div class="zayavka__item-input">
+              <input type="text" placeholder="Пример">
+            </div>
+          </div>
+          <div class="zayavka__item">
+            <div class="zayavka__item-name"><span>Электронная почта</span></div>
+            <div class="zayavka__item-input">
+              <input type="text" placeholder="E-mail">
+            </div>
+          </div>
+          <div class="zayavka__item">
+            <div class="zayavka__item-name"><span>Примечание</span></div>
+            <div class="zayavka__item-input">
+              <textarea rows="5" cols="33" placeholder="E-mail"></textarea>
+            </div>
+          </div>
+          <div class="zayavka__item-check">
+            <div class="zayavka__item-checkbox">
+              <input type="checkbox">
+            </div>
+            <div class="zayavka__item-ckeck-text"><span>Нажимая на кнопку, я принимаю пользовательского соглашения и даю согласие на обработку моих перссональный данных.</span></div>
+          </div>
+          <div class="zayavka__btn"><a class="button button_blue" href="#"><span>Отправить</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="index-wrap">
+        <div class="footer__top"><a class="footer__logo" href="./">
+            <svg class="icon icon-logoshort ">
+              <use href="./img/svg/sprite.svg#logoshort" xlink:href="./img/svg/sprite.svg#logoshort"></use>
+            </svg></a>
+          <div class="footer__socials"><a class="footer__social-icon" href="#">
+              <svg class="icon icon-whatsapp ">
+                <use href="./img/svg/sprite.svg#whatsapp" xlink:href="./img/svg/sprite.svg#whatsapp"></use>
+              </svg></a><a class="footer__social-icon" href="#">
+              <svg class="icon icon-vk ">
+                <use href="./img/svg/sprite.svg#vk" xlink:href="./img/svg/sprite.svg#vk"></use>
+              </svg></a><a class="footer__social-icon" href="#">
+              <svg class="icon icon-telegram ">
+                <use href="./img/svg/sprite.svg#telegram" xlink:href="./img/svg/sprite.svg#telegram"></use>
+              </svg></a></div>
+        </div>
+        <div class="footer__mid">
+          <div class="footer__section footer__section_A">
+            <div class="footer__section-name"><span>Разделы</span></div>
+            <div class="footer__section-items">
+              <ul>
+                <li><a href="./about-orcit.html"><span>О нас</span></a></li>
+                <li><a href="./uslugi-inside.html"><span>Услуги</span></a></li>
+                <li><a href="./services.html"><span>Сервисы</span></a></li>
+                <li><a href="./news.html"><span>Пресс-центр</span></a></li>
+                <li><a href="./tehpod-poryadok.html"><span>Техническая поддержка</span></a></li>
+                <li><a href="./tel-page.html"><span>Телефонный справочник</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__section footer__section_B">
+            <div class="footer__section-name"><span>Контакты</span></div>
+            <div class="footer__section-items">
+              <ul>
+                <li><a href="tel:+74112398000"><span>+7 (4112) 398-000</span></a></li>
+                <li><a href="tel:+74112398233"><span>+7 (4112) 398-233</span></a></li>
+                <li><a href="mailto:secretar@yaensb.ru"><span>secretar@yaensb.ru</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__section footer__section_C">
+            <div class="footer__section-name"><span>Головной офис</span></div>
+            <div class="footer__section-items">
+              <div class="footer__section-text">
+                <p>677980, г. Якутск,<br>ул. Октябрьская, <br>дом 22, офис 313</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer__section footer__section4_D">
+            <div class="footer__section-name"><span>Обратная связь</span></div>
+            <div class="footer__section-items">
+              <div class="footer__section-text">
+                <p>Нашли ошибку? Сообщите нам! Выделите и нажмите Ctrl+Enter</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__copyright"><span>© 2023 ГБУ РС(Я) “РЦИТ”</span></div>
+          <div class="footer__dev">
+            <div class="footer__dev-text"><span>Разработан в</span></div><a class="footer__dev-icon" href="https://platforma.bz/">
+              <svg class="icon icon-logo-platform ">
+                <use href="./img/svg/sprite.svg#logo-platform" xlink:href="./img/svg/sprite.svg#logo-platform"></use>
+              </svg></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/common.js"></script>
+  </body>
+</html>
